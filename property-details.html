@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- animation -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    
+    <!-- Custom Css Filed -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="wrapper">
+            <div class="container-fluid">
+                <div class="row first-row py-2 align-items-center d-none d-lg-flex wow fadeInDown" data-wow-duration="1s">
+                    <div class="col-xl-5 col-md-5">
+                        <p class="text-white-50 mb-0">Welcome to Conbusi consulting service</p>
+                    </div>
+                    <div class="col-xl-7 col-md-7 align-items-center d-flex justify-content-end">
+                        <div class="short_contact_list d-flex justify-content-end">
+                            <ul class="list-unstyled d-flex align-items-center mb-0">
+                                <li class="me-5">
+                                    <a href="#" class="text-white-50">
+                                        <i class="fa fa-envelope"></i>
+                                        info@docmed.com
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-white-50">
+                                        <i class="fa fa-phone"></i>
+                                        1601-609 6780
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="social_media_links ms-5 d-flex align-items-center">
+                            <a href="#" class="text-white me-2">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="text-white me-2">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="#" class="text-white">
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row second-row align-items-center py-3">
+                    <div class="col-xl-3 col-lg-2 wow fadeInLeft" data-wow-duration="1s">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="images/logo.png.webp" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-7 wow fadeInUp" data-wow-duration="1s">
+                        <nav class="navbar-expand-lg">
+                            <div class="container">
+                                <!-- Toggle Button -->
+                                <button
+                                    class="navbar-toggler text-white float-end"
+                                    type="button"
+                                    data-mdb-toggle="collapse"
+                                    data-mdb-target="#navbarSupportedContent"
+                                    aria-controls="navbarSupportedContent"
+                                    aria-expanded="false"
+                                    aria-label="Toggle navigation"
+                                    >
+                                    <i class="fas fa-bars"></i>
+                                    Menu
+                                </button>
+                                <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+                                    <ul class="nav-list list-unstyled d-lg-flex mb-0">
+                                        <li class="mb-lg-0 mb-sm-2">
+                                            <a href="index.html" class="active text-white position-relative">Home</a>
+                                        </li>
+                                        <li class="mb-lg-0 mb-sm-2">
+                                            <a href="#" class="text-white position-relative nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">Pages</a>
+                                            <ul class="dropdown-menu mt-2" aria-labelledby="navbarDropdownMenuLink">
+                                                <li>
+                                                    <a class="dropdown-item position-relative overflow-hidden text-black" href="about.html">About</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item position-relative overflow-hidden text-black" href="property-details.html">Property Details</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item position-relative overflow-hidden text-black" href="#">Elements</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        </li>
+                                        <li class="mb-lg-0 mb-sm-2">
+                                            <a href="property.html" class="text-white position-relative">Property</a>
+                                        </li>
+                                        <li class="mb-lg-0 mb-sm-2">
+                                            <a href="#" class="text-white position-relative nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">Blog</a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                <li>
+                                                    <a class="dropdown-item position-relative overflow-hidden text-black" href="#">Blog</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item position-relative overflow-hidden text-black" href="#">Single Blog</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html" class="text-white position-relative">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 wow fadeInRight" data-wow-duration="1s">
+                        <div class="add_property d-flex align-items-center">
+                            <div class="theme_switcher_menu me-2">
+                                <a class="btn text-white rounded-pill position-relative d-flex align-items-center" role="button" aria-expanded="true">
+                                    <span class="btn_wrap d-flex align-items-center">
+                                        <div class="white">
+                                            <i class="fa-regular fa-sun me-1"></i>
+                                        </div>
+                                        <div class="dark">
+                                            <i class="fa-solid fa-moon"></i>
+                                        </div>
+                                    </span>
+                                    <span class="ms-2">Theme</span>
+                                        </a>
+                            </div>
+                            <div class="search_btn d-none d-lg-block">
+                                <a href="#" class="me-2">
+                                    <i class="fa-solid fa-magnifying-glass text-white"></i>
+                                </a>
+                            </div>
+                            <div class="book_btn">
+                                <a href="#" class="btn rounded-pill text-white d-none d-lg-block">Add Property</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- banner section -->
+    <section class="property_details_banner position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-8">
+                    <div class="banner_info wow fadeInLeft" data-wow-duration="400ms" data-wow-delay="300ms" >
+                        <h4 class="property-details_heading">Comfortable Apartment in Palace</h4>
+                        <div class="d-flex align-items-center">
+                            <img class="me-2" src="images/location.svg" alt="location">
+                            <span>200/A, Greenland, Texaro, USA</span>
+                        </div>
+                        <div class="property_luxury mt-3">
+                            <ul class="list-unstyled mb-0 d-flex align-items-center">
+                                <li>
+                                    <div class="pt-3 me-5">
+                                        <img class="mb-2" src="images/color_box.svg" alt="image">
+                                        <span class="text-white d-block">1200 Sqft</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pt-3 me-5">
+                                        <img class="mb-2" src="images/color_bed.svg" alt="img">
+                                        <span class="text-white d-block">2 Bed</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pt-3">
+                                        <img class="mb-2" src="images/color_bath.svg" alt="image">
+                                        <span class="text-white d-block">2 Bath</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-4">
+                    <div class="price_info text-md-end text-start mt-md-0 mt-3">
+                        <span class="d-block">$4567</span>
+                        <a href="#" class="btn rounded-pill d-inline-block me-auto ms-md-auto">+10 367 457 735</a>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!-- property_details -->
+    <section class="carousel_area wow fadeInDown position-relative" data-wow-duration="800ms" data-wow-delay="200ms">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-mdb-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="img_details">
+                                    <img src="images/property_details.png.webp" alt="image" class="img-fluid mb-3">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="img_details">
+                                    <img src="images/property_details.png.webp" alt="image" class="img-fluid mb-3">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="img_details">
+                                    <img src="images/property_details.png.webp" alt="image" class="img-fluid mb-3">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide="prev">
+                            <span class="position-absolute rounded-circle"><i class="fa-solid fa-chevron-left"></i></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide="next">
+                            <span class="position-absolute rounded-circle"><i class="fa-solid fa-chevron-right"></i></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-lg-10 offset-xl-2 offset-lg-1">
+                    <div class="carousel_area_description">
+                        <div class="details_info">
+                            <h4 class="mb-4">Description</h4>
+                            <p class="p">While there are countless Trips out there in charity shops and car boot sales, you can also buy refurbished examples, with replacement leatherette available in all colors. 
+                                I love my Trip and use it regularly something so refreshing about its simplicity.
+                            </p>
+                            <p class="p">
+                                While there are countless Trips out there in charity shops and car boot sales, you can also buy refurbished examples, with replacement leatherette available in all colors. 
+                                I love my Trip and use it regularly something so refreshing about its simplicity.
+                            </p>
+                            <p class="p">
+                                While there are countless Trips out there in charity shops and car boot sales, you can also buy refurbished examples, with replacement leatherette available in all colors. 
+                                I love my Trip and use it regularly something so refreshing about its simplicity.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Map -->
+    <section class="map d-none d-sm-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-lg-10 offset-xl-2 offset-lg-1">
+                    <div id="map" style="height: 480px; position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-err-container"><div class="gm-err-content"><div class="gm-err-icon"><img src="https://maps.gstatic.com/mapfiles/api-3/images/icon_error.png" alt="" draggable="false" style="user-select: none;"></div><div class="gm-err-title">Sorry! Something went wrong.</div><div class="gm-err-message">This page didn't load Google Maps correctly. See the JavaScript console for technical details.</div></div></div></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact field -->
+    <section class="contact_field">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-lg-10 offset-xl-2 offset-lg-1">
+                    <h3>Contact Us</h3>
+                    <form action="" method="post">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <input type="text" name="username" placeholder="Your Name">
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <input type="email" name="email" placeholder="Email">
+                            </div>
+                            <div class="col-lg-12">
+                                <input type="number" name="number" placeholder="Phone no.">
+                            </div>
+                            <div class="col-lg-12">
+                                <textarea type="message" name="message" placeholder="Message" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="submit" name="submit" class="btn d-block">Send</button>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- action area -->
+    <section class="action_area text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 col-md-12 wow fadeInLeft" data-wow-duration="800ms" data-wow-delay="200ms">
+                    <h2 class="action_heading">Add your property for sale</h2>
+                </div>
+                <div class="col-lg-4 col-md-12 wow fadeInRight" data-wow-duration="800ms" data-wow-delay="200ms">
+                    <div class="call_add_action d-flex align-items-center">
+                        <span class=" me-3">+10 637 367 4567</span>
+                        <a href="#" class="btn rounded-pill">Add Property</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="counter text-center wow fadeInUp d-none" data-wow-duration="800ms" data-wow-delay="200ms">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="counter_info mb-3">
+                        <h3>200 +</h3>
+                        <p>Properties for sale</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="counter_info mb-3">
+                        <h3 class="">300</h3>
+                        <p>Properties for sale</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="counter_info mb-3">
+                        <h3 class="">15</h3>
+                        <p>Properties for sale</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer position-relative">
+        <a id="scroll_top" class="btn rounded-circle">
+                <i class="fa-solid fa-caret-up fa-2x"></i>
+        </a>
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer_widget wow fadeInDown mb-3" data-wow-duration="800ms" data-wow-delay="200ms">
+                        <div class="logo mb-4">
+                            <a href="index.html">
+                                <img src="images/footer_logo.png.webp" alt="logo">
+                            </a>
+                        </div>
+                        <ul class="footer_links list-unstyled">
+                            <li>
+                                <a href="#" class="footer_btn">conbusi@support.com</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_btn">+10 873 672 6782</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_btn">600/D, Green road, NewYork</a>
+                            </li>
+                        </ul>
+                        <div class="footer_social_links mt-5 d-flex align-items-center">
+                            <a href="#" class="me-3 rounded-circle footer_btn">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="#" class="me-3  rounded-circle footer_btn">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="#" class="rounded-circle footer_btn">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 wow fadeInRight" data-wow-duration="800ms" data-wow-delay="200ms">
+                    <div class="box">
+                        <h2 class="mb-4">Services</h2>
+                        <ul class="footer_links list-unstyled">
+                            <li class="mb-2">
+                                <a href="#" class="footer_btn">Marketing & SEO</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="footer_btn">Startup</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="footer_btn">Finance solution</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="footer_btn">Food</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="footer_btn">Travel</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 wow fadeInRight" data-wow-duration="800ms" data-wow-delay="200ms">
+                    <div class="box">
+                        <h2 class="mb-4">Useful Links</h2>
+                        <ul class="footer_links list-unstyled">
+                            <li class="mb-2">
+                                <a href="about.html" class="footer_btn">About</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="footer_btn">Blog</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="contact.html" class="footer_btn">Contact</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="footer_btn">Appointment</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 wow fadeInRight" data-wow-duration="800ms" data-wow-delay="200ms">
+                    <div class="box">
+                        <h2 class="mb-4">Subscribe</h2>
+                        <form action="property-details.html" method="post" class="mb-4 position-relative">
+                            <input type="email" name="username" placeholder="Enter Your mail" class="rounded-pill">
+                            <button class="btn rounded-pill bg-orange text-white" type="submit">Subscribe</button>
+                        </form>
+                        <p class="footer_btn">
+                            Esteem spirit temper too say adieus who direct esteem esteems luckily.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy_right_section wow fadeIn" data-wow-duration="800ms" data-wow-delay="200ms">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer_copy_right">
+                            <p>Copyright ©2023 All rights reserved | This template is made with
+                                <i class="fa-regular fa-heart"></i> by <a href="#">Seleem</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/wow.min.js"></script>
+    <script src="js/mdb.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
